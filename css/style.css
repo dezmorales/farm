@@ -1,0 +1,224 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  background: #FDFCEF;
+  color: #000;
+}
+
+ul {
+  list-style: none;
+}
+
+.header {
+  margin-bottom: 20px;
+}
+.header__body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 150px;
+}
+
+.container {
+  max-width: 1110px;
+  margin: 0 auto;
+}
+
+.logo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.logo__img {
+  width: 35px;
+  height: 28px;
+}
+.logo__text {
+  font-family: Montserrat;
+  font-weight: 700;
+  font-size: 25px;
+  margin: 0 0 0 10px;
+}
+
+.btn {
+  border-radius: 100px;
+  background: #FF6861;
+  width: 227px;
+  height: 69px;
+  border: none;
+}
+
+.btn:hover {
+  background: transparent;
+  border: 3px solid #FF6861;
+}
+
+.btn:hover .btn-link {
+  color: #FF6861;
+}
+
+.btn-link {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  color: #FFF;
+  font-family: Montserrat;
+  font-size: 18px;
+  font-weight: 700;
+  text-decoration: none;
+  width: 100%;
+  height: 100%;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.hero {
+  margin-bottom: 120px;
+}
+.hero__body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.hero__img {
+  -webkit-transition: all 0.3s ease-out;
+  transition: all 0.3s ease-out;
+  width: 465px;
+  height: 465px;
+  cursor: pointer;
+}
+.hero__img:hover {
+  width: 500px;
+  height: 500px;
+}
+.hero__title {
+  font-family: Montserrat;
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 140%;
+  max-width: 465px;
+  margin-bottom: 30px;
+}
+.hero__text {
+  font-family: Montserrat;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 137%;
+  max-width: 423px;
+  margin-bottom: 30px;
+}
+.about {
+  margin-bottom: 120px;
+}
+.about__body {
+  max-width: 720px;
+  margin: 0px auto;
+}
+.about__content {
+  margin-left: 34px;
+}
+.about__list-img {
+  -webkit-transition: all 0.3s ease-out;
+  transition: all 0.3s ease-out;
+  width: 73px;
+  height: 73px;
+  cursor: pointer;
+}
+.about__list-img:hover {
+  width: 93px;
+  height: 93px;
+}
+.about__list-item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 41px;
+}
+.about__title {
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 40px;
+  font-weight: 700;
+  margin-bottom: 70px;
+}
+.about__list-title {
+  font-family: Montserrat;
+  font-size: 30px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+.about__list-text {
+  font-family: Montserrat;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.animals__body {
+  border-radius: 50px;
+  background: linear-gradient(148deg, #FFF6DF 0%, #FFDFDE 100%);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 76px 122px 75px 122px;
+}
+.animals__img {
+  -webkit-transition: all 0.3s ease-out;
+  transition: all 0.3s ease-out;
+  width: 287px;
+  height: 287px;
+  cursor: pointer;
+}
+.animals__img:hover {
+  width: 320px;
+  height: 320px;
+}
+.animals__title {
+  font-family: Montserrat;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 140%;
+  max-width: 475px;
+  margin-bottom: 24px;
+}
+.animals__text {
+  font-family: Montserrat;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 137%;
+  max-width: 371px;
+  margin-bottom: 24px;
+}
+
+.footer__body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  min-height: 260px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
